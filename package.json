@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-unit-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "consign": "^0.1.2",
+    "express": "^4.13.3",
+    "mongoose": "^4.3.1",
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.4.5",
+    "should": "^13.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha --timeout 100000",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soares-Thiago/nodejs-unit-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Soares-Thiago/nodejs-unit-test/issues"
+  },
+  "homepage": "https://github.com/Soares-Thiago/nodejs-unit-test#readme"
+}
